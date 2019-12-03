@@ -1,0 +1,39 @@
+$color_gold: #b99362
+
+*
+  font-family: 'Fjalla One'
+
+
+body
+  background-color: #222
+
+svg
+  height: 100vh
+
+path
+  stroke: white
+  fill: transparent
+  transition: 0.5s
+  cursor: pointer
+  &:hover
+    fill: $color_gold
+    transform: translate(-5px,-5px)
+
+.title_area
+  position: absolute
+  width: 600px
+  right: 20px
+  top: 20px
+  color: white    
+  font-size: 30px
+  hr
+    width: 100px
+    margin-left: 0
+    border: none
+    border-bottom: solid 2px white
+
+.forcast
+  h2,h4,h5
+    margin: 0
+  h2
+    margin-top: 20px

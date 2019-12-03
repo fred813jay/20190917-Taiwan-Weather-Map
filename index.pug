@@ -1,0 +1,8 @@
+#app
+  .title_area
+    h1 Taiwan<br>Weather Map<br>{{filter}}
+    hr
+    .forcast(v-if="now_area")
+      h5 {{now_area.tag}}
+      h4 {{now_area.low}}℃ ~ {{now_area.high}}℃
+      h2 {{now_area.weather}}
